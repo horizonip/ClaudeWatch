@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(cmake --build:*)",
+      "Bash(python:*)",
+      "Bash(start \"\" \"E:\\\\OneDrive\\\\OneDrive - Horizon IP Networks, LLC\\\\Documents\\\\Code\\\\CC-Usage\\\\build\\\\Release\\\\ClaudeUsageWidget.exe\" --demo)",
+      "Bash(git add:*)"
+    ]
+  }
+}

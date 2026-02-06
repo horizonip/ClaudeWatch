@@ -1,0 +1,37 @@
+#include "../src/resource.h"
+#include <windows.h>
+
+// Application icon
+IDI_APP_ICON ICON "app.ico"
+
+// Version info
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "FileDescription", "Claude Usage Widget"
+            VALUE "FileVersion", "1.0.0"
+            VALUE "ProductName", "ClaudeUsageWidget"
+            VALUE "ProductVersion", "1.0.0"
+        END
+    END
+END
+
+// Context menu
+IDR_CONTEXT_MENU MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Refresh Now",         ID_MENU_REFRESH
+        MENUITEM "Set Cookie...",       ID_MENU_SETCOOKIE
+        MENUITEM SEPARATOR
+        MENUITEM "Always On Top",       ID_MENU_ONTOP
+        MENUITEM "Open Claude.ai",      ID_MENU_OPENSITE
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                ID_MENU_EXIT
+    END
+END
