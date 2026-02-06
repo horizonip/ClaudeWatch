@@ -139,7 +139,7 @@ void UsageParser::SaveDebugDump(const std::string& body) {
     wchar_t appData[MAX_PATH];
     if (FAILED(SHGetFolderPathW(NULL, CSIDL_APPDATA, NULL, 0, appData))) return;
 
-    std::wstring dir = std::wstring(appData) + L"\\ClaudeUsageWidget";
+    std::wstring dir = std::wstring(appData) + L"\\ClaudeWatch";
     CreateDirectoryW(dir.c_str(), NULL);
 
     std::wstring path = dir + L"\\debug_response.txt";

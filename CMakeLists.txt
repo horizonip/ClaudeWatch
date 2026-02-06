@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(ClaudeUsageWidget VERSION 1.0.0 LANGUAGES CXX)
+project(ClaudeWatch VERSION 1.0.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -41,5 +41,5 @@ target_include_directories(${PROJECT_NAME} PRIVATE src)
 # Set subsystem to Windows
 set_target_properties(${PROJECT_NAME} PROPERTIES
     WIN32_EXECUTABLE TRUE
-    OUTPUT_NAME "ClaudeUsageWidget"
+    OUTPUT_NAME "ClaudeWatch"
 )

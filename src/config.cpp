@@ -15,7 +15,7 @@ ConfigManager& GetConfig() {
 ConfigManager::ConfigManager() {
     wchar_t appDataPath[MAX_PATH];
     if (SUCCEEDED(SHGetFolderPathW(NULL, CSIDL_APPDATA, NULL, 0, appDataPath))) {
-        m_configDir = std::wstring(appDataPath) + L"\\ClaudeUsageWidget";
+        m_configDir = std::wstring(appDataPath) + L"\\ClaudeWatch";
         m_configPath = m_configDir + L"\\config.ini";
     }
 }

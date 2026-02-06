@@ -94,7 +94,7 @@ A tiny Windows desktop widget displaying Claude.ai plan usage limits (session an
 ## Configuration
 
 ### File Location
-`%APPDATA%\ClaudeUsageWidget\config.ini`
+`%APPDATA%\ClaudeWatch\config.ini`
 
 ### Config Format
 ```ini
@@ -126,7 +126,7 @@ ColorScheme=auto
 ## Project Structure
 
 ```
-ClaudeUsageWidget/
+ClaudeWatch/
 ├── src/
 │   ├── main.cpp
 │   ├── http_client.cpp

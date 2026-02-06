@@ -4,8 +4,16 @@
       "Bash(cd:*)",
       "Bash(cmake --build:*)",
       "Bash(python:*)",
-      "Bash(start \"\" \"E:\\\\OneDrive\\\\OneDrive - Horizon IP Networks, LLC\\\\Documents\\\\Code\\\\CC-Usage\\\\build\\\\Release\\\\ClaudeUsageWidget.exe\" --demo)",
-      "Bash(git add:*)"
+      "Bash(start \"\" \"E:\\\\OneDrive\\\\OneDrive - Horizon IP Networks, LLC\\\\Documents\\\\Code\\\\ClaudeWatch\\\\build\\\\Release\\\\ClaudeWatch.exe\" --demo)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh api:*)",
+      "Bash(git config:*)",
+      "Bash(where:*)",
+      "Bash(git remote:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(cmake:*)"
     ]
   }
 }

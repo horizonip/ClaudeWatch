@@ -14,7 +14,7 @@ A lightweight Windows desktop widget that displays your Claude.ai usage limits i
 
 ## Quick Start
 
-1. Download `ClaudeUsageWidget.exe` from Releases (or build from source)
+1. Download `ClaudeWatch.exe` from Releases (or build from source)
 2. Run the executable
 3. Right-click the widget → **Set Cookie...**
 4. Follow the instructions to paste your session cookie
@@ -42,14 +42,14 @@ A lightweight Windows desktop widget that displays your Claude.ai usage limits i
 ### Build Steps
 
 ```batch
-git clone https://github.com/yourusername/ClaudeUsageWidget.git
-cd ClaudeUsageWidget
+git clone https://github.com/horizonip/ClaudeWatch.git
+cd ClaudeWatch
 mkdir build && cd build
 cmake .. -G "Visual Studio 17 2022"
 cmake --build . --config Release
 ```
 
-The executable will be at `build/Release/ClaudeUsageWidget.exe`
+The executable will be at `build/Release/ClaudeWatch.exe`
 
 ### MinGW Alternative
 
@@ -81,15 +81,15 @@ cmake --build .
 
 ```batch
 # Normal mode
-ClaudeUsageWidget.exe
+ClaudeWatch.exe
 
 # Demo mode (test with fake data)
-ClaudeUsageWidget.exe --demo
+ClaudeWatch.exe --demo
 ```
 
 ## Configuration
 
-Settings are stored in `%APPDATA%\ClaudeUsageWidget\config.ini`
+Settings are stored in `%APPDATA%\ClaudeWatch\config.ini`
 
 ```ini
 [Auth]
@@ -156,7 +156,7 @@ The widget couldn't retrieve your organization info. Check:
 
 ### Widget shows wrong data
 
-Check the debug file at `%APPDATA%\ClaudeUsageWidget\debug_response.txt` to see the raw API response.
+Check the debug file at `%APPDATA%\ClaudeWatch\debug_response.txt` to see the raw API response.
 
 ### Widget won't start
 
@@ -198,7 +198,7 @@ All Windows built-in (no external libraries):
 ## Project Structure
 
 ```
-ClaudeUsageWidget/
+ClaudeWatch/
 ├── CMakeLists.txt
 ├── README.md
 ├── src/

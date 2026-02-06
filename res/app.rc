@@ -15,7 +15,7 @@ BEGIN
         BEGIN
             VALUE "FileDescription", "Claude Usage Widget"
             VALUE "FileVersion", "1.0.0"
-            VALUE "ProductName", "ClaudeUsageWidget"
+            VALUE "ProductName", "ClaudeWatch"
             VALUE "ProductVersion", "1.0.0"
         END
     END

@@ -72,7 +72,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, LPWSTR cmdLine, int) {
     wc.hIcon = LoadIconW(hInstance, MAKEINTRESOURCEW(IDI_APP_ICON));
     wc.hIconSm = LoadIconW(hInstance, MAKEINTRESOURCEW(IDI_APP_ICON));
     wc.hCursor = LoadCursor(nullptr, IDC_ARROW);
-    wc.lpszClassName = L"ClaudeUsageWidgetClass";
+    wc.lpszClassName = L"ClaudeWatchClass";
     RegisterClassExW(&wc);
 
     // Get saved position or default
@@ -98,7 +98,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, LPWSTR cmdLine, int) {
 
     g_hwnd = CreateWindowExW(
         exStyle,
-        L"ClaudeUsageWidgetClass",
+        L"ClaudeWatchClass",
         L"Claude Usage",
         WS_POPUP,
         x, y, WIDGET_WIDTH, WIDGET_HEIGHT,
